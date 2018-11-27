@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    line-height: 1;
+}
+
+header {
+    width: calc(100% - 80px);
+    height: 80px;
+    background-color: #1f86e0;
+    color: #FFF;
+    padding: 0 40px;
+    overflow: auto;
+}
+
+header .page-header-text {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    background-color: #1f86e0;
+    bottom: 0;
+}
+
+footer .copyright-text {
+    margin: 20px auto 0;
+    width: 220px;
+    color: #FFF;
+}
+
+.login-form-container {
+    width: 320px;
+    height: 400px;
+    background-color: #fff;
+    float: right;
+}
+
+.site-body-container {
+    width: 100%;
+    min-height: calc(100% - 140px);
+    background-color: #c9c9c9;
+}
+
+input[type="text"], input[type="password"] {
+    outline: none;
+    border: none;
+}
